@@ -68,4 +68,4 @@ except pd.errors.ParserError:
 
 sentimental_and_similarity(amazon_dataframe["reviews.text"].sample(n=5))
 
-print(f"Dataframe Columns: {amazon_dataframe.shape[1]} Rows: {amazon_dataframe.shape[0]}") 
+print(f"Data frame Columns: {amazon_dataframe.shape[1]} Rows: {amazon_dataframe.shape[0]}") 
